@@ -1,0 +1,1705 @@
+{
+ "fps": 30,
+ "width": 1920,
+ "height": 1080,
+ "audio": "audio/voiceover.mp3",
+ "audioSeconds": 665.28,
+ "hookCounterSrt": "overlays/hook_counter.srt",
+ "dissolveFrames": 5,
+ "grain": false,
+ "outro": {
+  "seconds": 6,
+  "title": "Главные ошибки",
+  "cards": [
+   {
+    "icon": "phone",
+    "text": "Проспали iPhone"
+   },
+   {
+    "icon": "clock",
+    "text": "Kin закрыли за 48 дней"
+   },
+   {
+    "icon": "grid",
+    "text": "Сломали старые приложения"
+   },
+   {
+    "icon": "rings",
+    "text": "Ставка на Nokia не сработала"
+   },
+   {
+    "icon": "dollar",
+    "text": "Купили Nokia за $7,2 млрд"
+   }
+  ]
+ },
+ "scenes": [
+  {
+   "id": 1,
+   "name": "Scene_001",
+   "orig": 1,
+   "start": 0.0,
+   "end": 2.9,
+   "text": "Семь целых шесть десятых миллиарда долларов.",
+   "image": "images/Scene_001.jpg",
+   "clip": "clips/Scene_001.mp4",
+   "clipSeconds": 8.0
+  },
+  {
+   "id": 2,
+   "name": "Scene_002",
+   "orig": 1,
+   "start": 2.9,
+   "end": 6.2,
+   "text": "Столько Майкрософт списала в убыток за один день.",
+   "image": "images/Scene_002.jpg",
+   "camera": "zoomOut",
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "списано за один день"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Scene_003",
+   "orig": 2,
+   "start": 6.2,
+   "end": 10.2,
+   "text": "За телефоны, которыми почти никто не хотел пользоваться.",
+   "image": "images/Scene_003.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 4,
+   "name": "Scene_004",
+   "orig": 2,
+   "start": 10.2,
+   "end": 18.4,
+   "text": "У компании были деньги, лучшие программисты и почти весь рынок персональных компьютеров. Как она умудрилась проиграть?",
+   "image": "images/Scene_004.jpg",
+   "clip": "clips/Scene_004.mp4",
+   "clipSeconds": 6.02,
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "деньги",
+      "программисты",
+      "рынок ПК",
+      "КАК?"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Scene_005",
+   "orig": 3,
+   "start": 18.4,
+   "end": 21.5,
+   "text": "Чтобы ответить, вернёмся на двадцать лет назад.",
+   "image": "images/Scene_005.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 6,
+   "name": "Scene_006",
+   "orig": 4,
+   "start": 21.5,
+   "end": 26.4,
+   "text": "В двухтысячном году Майкрософт выпускает Виндовс для карманных компьютеров.",
+   "image": "images/Scene_006.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 7,
+   "name": "Scene_007",
+   "orig": 4,
+   "start": 26.4,
+   "end": 33.2,
+   "text": "Это маленькие устройства со стилусом вместо мыши. Потом на их основе появляется Виндовс Мобайл.",
+   "image": "images/Scene_007.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 8,
+   "name": "Scene_008",
+   "orig": 4,
+   "start": 33.2,
+   "end": 38.2,
+   "text": "Это первые умные телефоны. Слово «смартфон» тогда знают немногие.",
+   "image": "images/Scene_008.jpg",
+   "clip": "clips/Scene_008.mp4",
+   "clipSeconds": 6.02,
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "смартфон"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Scene_009",
+   "orig": 5,
+   "start": 38.2,
+   "end": 46.157,
+   "text": "Идея простая. Виндовс победила на компьютерах. Значит, победит и в кармане. Майкрософт не продаёт телефоны сама.",
+   "image": "images/Scene_009.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 10,
+   "name": "Scene_010",
+   "orig": 5,
+   "start": 46.157,
+   "end": 53.4,
+   "text": "Она раздаёт систему производителям. Они ставят её на свои устройства и платят за каждую копию.",
+   "image": "images/Scene_010.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 11,
+   "name": "Scene_011",
+   "orig": 5,
+   "start": 53.4,
+   "end": 56.6,
+   "text": "Для компьютеров эта схема работала идеально.",
+   "image": "images/Scene_011.jpg",
+   "clip": "clips/Scene_011.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 12,
+   "name": "Scene_012",
+   "orig": 6,
+   "start": 56.6,
+   "end": 63.0,
+   "text": "К две тысячи седьмому году у Виндовс Мобайл около двенадцати процентов мирового рынка смартфонов.",
+   "image": "images/Scene_012.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 13,
+   "name": "Scene_013",
+   "orig": 6,
+   "start": 63.0,
+   "end": 67.8,
+   "text": "Это серьёзная доля. В Майкрософт уверены: будущее за ними.",
+   "image": "images/Scene_013.jpg",
+   "camera": "driftUp",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 12,
+     "suffix": " %",
+     "label": "доля Windows Mobile, 2007"
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "name": "Scene_014",
+   "orig": 7,
+   "start": 67.8,
+   "end": 71.682,
+   "text": "Но посмотрите на сами телефоны. Мелкий экран.",
+   "image": "images/Scene_014.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "мелкий экран"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "name": "Scene_015",
+   "orig": 7,
+   "start": 71.682,
+   "end": 78.4,
+   "text": "Стилус, который вечно теряется. Крошечные кнопки. Меню, будто их вырезали из настольной Виндовс.",
+   "image": "images/Scene_015.jpg",
+   "clip": "clips/Scene_015.mp4",
+   "clipSeconds": 6.02,
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "стилус",
+      "кнопки"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "name": "Scene_016",
+   "orig": 7,
+   "start": 78.4,
+   "end": 86.1,
+   "text": "Пользоваться этим можно только по необходимости. Такие устройства покупают бизнесмены и технические энтузиасты.",
+   "image": "images/Scene_016.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "бизнесмены",
+      "технари"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "name": "Scene_017",
+   "orig": 8,
+   "start": 86.1,
+   "end": 90.9,
+   "text": "Девятого января две тысячи седьмого года на сцену выходит Стив Джобс.",
+   "image": "images/Scene_017.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 18,
+   "name": "Scene_018",
+   "orig": 8,
+   "start": 90.9,
+   "end": 97.3,
+   "text": "Он показывает айфон. Телефон без кнопок. Без стилуса. Управлять им нужно пальцами.",
+   "image": "images/Scene_018.jpg",
+   "clip": "clips/Scene_018.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 19,
+   "name": "Scene_019",
+   "orig": 9,
+   "start": 97.3,
+   "end": 101.0,
+   "text": "Зал аплодирует. А в Майкрософт смотрят и не верят.",
+   "image": "images/Scene_019.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 20,
+   "name": "Scene_020",
+   "orig": 10,
+   "start": 101.0,
+   "end": 106.4,
+   "text": "В апреле две тысячи седьмого главу компании Стива Балмера спрашивают про айфон.",
+   "image": "images/Scene_020.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 21,
+   "name": "Scene_021",
+   "orig": 10,
+   "start": 106.4,
+   "end": 110.609,
+   "text": "Он смеётся. Называет его самым дорогим телефоном в мире.",
+   "image": "images/Scene_021.jpg",
+   "camera": "driftUp",
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "слишком дорогой"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "name": "Scene_022",
+   "orig": 10,
+   "start": 110.609,
+   "end": 116.1,
+   "text": "И говорит, что у него нет клавиатуры. Значит, бизнесмены его не купят.",
+   "image": "images/Scene_022.jpg",
+   "clip": "clips/Scene_022.mp4",
+   "clipSeconds": 6.02,
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "нет клавиатуры",
+      "бизнесмены не купят"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "name": "Scene_023",
+   "orig": 11,
+   "start": 116.1,
+   "end": 120.7,
+   "text": "Эта фраза стала одной из самых известных ошибок в истории технологий.",
+   "image": "images/Scene_023.jpg",
+   "camera": "driftDown",
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "самая известная ошибка"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "name": "Scene_024",
+   "orig": 11,
+   "start": 120.7,
+   "end": 125.8,
+   "text": "Но Балмер ошибся не только в оценке. Настоящая ошибка была в другом.",
+   "image": "images/Scene_024.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 3,
+     "suffix": " года",
+     "label": "без перемен"
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "name": "Scene_025",
+   "orig": 11,
+   "start": 125.8,
+   "end": 130.8,
+   "text": "Майкрософт почти три года продолжала делать то же самое, что и раньше.",
+   "image": "images/Scene_025.jpg",
+   "clip": "clips/Scene_025.mp4",
+   "clipSeconds": 8.0
+  },
+  {
+   "id": 26,
+   "name": "Scene_026",
+   "orig": 12,
+   "start": 130.8,
+   "end": 136.3,
+   "text": "А в октябре две тысячи восьмого года появляется ещё один конкурент.",
+   "image": "images/Scene_026.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 27,
+   "name": "Scene_027",
+   "orig": 12,
+   "start": 136.3,
+   "end": 141.3,
+   "text": "Первый телефон на андроиде. Систему делает Гугл. И раздаёт её бесплатно.",
+   "image": "images/Scene_027.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 28,
+   "name": "Scene_028",
+   "orig": 13,
+   "start": 141.3,
+   "end": 145.6,
+   "text": "Майкрософт берёт деньги за свою систему. Гугл не берёт.",
+   "image": "images/Scene_028.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 29,
+   "name": "Scene_029",
+   "orig": 13,
+   "start": 145.6,
+   "end": 149.952,
+   "text": "Это был второй удар. Но компания пока его не почувствовала.",
+   "image": "images/Scene_029.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 30,
+   "name": "Scene_030",
+   "orig": 14,
+   "start": 149.952,
+   "end": 155.303,
+   "text": "В две тысячи восьмом году Майкрософт понимает: нужно что-то менять.",
+   "image": "images/Scene_030.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 31,
+   "name": "Scene_031",
+   "orig": 14,
+   "start": 155.303,
+   "end": 161.4,
+   "text": "Она покупает стартап Дэнджер. Это создатели Сайдкика, очень популярного телефона у подростков.",
+   "image": "images/Scene_031.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 32,
+   "name": "Scene_032",
+   "orig": 14,
+   "start": 161.4,
+   "end": 164.4,
+   "text": "Цена: около пятисот миллионов долларов.",
+   "image": "images/Scene_032.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 500,
+     "prefix": "$",
+     "suffix": " млн",
+     "label": "цена Danger"
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "name": "Scene_033",
+   "orig": 15,
+   "start": 164.4,
+   "end": 169.1,
+   "text": "Из этого должен получиться молодёжный телефон. Название: Кин.",
+   "image": "images/Scene_033.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 34,
+   "name": "Scene_034",
+   "orig": 16,
+   "start": 169.1,
+   "end": 178.1,
+   "text": "Но сначала случается неприятность. В октябре две тысячи девятого года у Сайдкика пропадают пользовательские данные.",
+   "image": "images/Scene_034.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 35,
+   "name": "Scene_035",
+   "orig": 16,
+   "start": 178.1,
+   "end": 182.9,
+   "text": "Контакты, фотографии, заметки. Тысячи людей остаются без своей информации.",
+   "image": "images/Scene_035.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 36,
+   "name": "Scene_036",
+   "orig": 16,
+   "start": 182.9,
+   "end": 189.0,
+   "text": "Скандал огромный. Репутацию нового приобретения это подрывает ещё до выхода Кина.",
+   "image": "images/Scene_036.jpg",
+   "camera": "refPush",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "данные потеряны"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "name": "Scene_037",
+   "orig": 17,
+   "start": 189.0,
+   "end": 191.3,
+   "text": "Тем не менее проект идёт вперёд.",
+   "image": "images/Scene_037.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 38,
+   "name": "Scene_038",
+   "orig": 17,
+   "start": 191.3,
+   "end": 200.0,
+   "text": "В апреле две тысячи десятого года Майкрософт показывает два телефона. Они яркие, квадратные, с выдвижной клавиатурой.",
+   "image": "images/Scene_038.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 39,
+   "name": "Scene_039",
+   "orig": 17,
+   "start": 200.0,
+   "end": 205.4,
+   "text": "Всё в них заточено под соцсети. Лента друзей встроена прямо в интерфейс.",
+   "image": "images/Scene_039.jpg",
+   "clip": "clips/Scene_039.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 40,
+   "name": "Scene_040",
+   "orig": 18,
+   "start": 205.4,
+   "end": 209.6,
+   "text": "В мае Кин выходит в продажу. И сразу видны проблемы.",
+   "image": "images/Scene_040.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 41,
+   "name": "Scene_041",
+   "orig": 18,
+   "start": 209.6,
+   "end": 214.8,
+   "text": "У Кина нет магазина приложений. А у айфона их уже больше двухсот тысяч.",
+   "image": "images/Scene_041.jpg",
+   "camera": "panRight",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 200000,
+     "suffix": "+",
+     "label": "приложений у iPhone",
+     "sep": true
+    }
+   ]
+  },
+  {
+   "id": 42,
+   "name": "Scene_042",
+   "orig": 18,
+   "start": 214.8,
+   "end": 219.7,
+   "text": "Хочешь новую игру? Её нет. Хочешь нужную программу? Тоже нет.",
+   "image": "images/Scene_042.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 43,
+   "name": "Scene_043",
+   "orig": 19,
+   "start": 219.7,
+   "end": 225.5,
+   "text": "Тариф при этом дорогой. Оператор просит за связь столько же, сколько за обычный смартфон.",
+   "image": "images/Scene_043.jpg",
+   "clip": "clips/Scene_043.mp4",
+   "clipSeconds": 6.02,
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "цена"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 44,
+   "name": "Scene_044",
+   "orig": 19,
+   "start": 225.5,
+   "end": 227.7,
+   "text": "Только смартфоном Кин не был.",
+   "image": "images/Scene_044.jpg",
+   "camera": "refPush",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "возможности"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 45,
+   "name": "Scene_045",
+   "orig": 20,
+   "start": 227.7,
+   "end": 234.5,
+   "text": "Продажи получились ничтожными. По разным оценкам, за всё время продали считанные тысячи устройств.",
+   "image": "images/Scene_045.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 46,
+   "name": "Scene_046",
+   "orig": 21,
+   "start": 234.5,
+   "end": 239.4,
+   "text": "Тридцатого июня две тысячи десятого года Майкрософт закрывает проект.",
+   "image": "images/Scene_046.jpg",
+   "clip": "clips/Scene_046.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 47,
+   "name": "Scene_047",
+   "orig": 21,
+   "start": 239.4,
+   "end": 242.8,
+   "text": "Прошло всего сорок восемь дней с начала продаж.",
+   "image": "images/Scene_047.jpg",
+   "camera": "driftDown",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 48,
+     "suffix": " дня",
+     "label": "жизнь Kin"
+    }
+   ]
+  },
+  {
+   "id": 48,
+   "name": "Scene_048",
+   "orig": 21,
+   "start": 242.8,
+   "end": 249.4,
+   "text": "По слухам, потери составили около миллиарда долларов, если считать и покупку Дэнджер, и разработку.",
+   "image": "images/Scene_048.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 1,
+     "prefix": "≈ $",
+     "suffix": " млрд",
+     "label": "потери",
+     "decimals": 1
+    }
+   ]
+  },
+  {
+   "id": 49,
+   "name": "Scene_049",
+   "orig": 22,
+   "start": 249.4,
+   "end": 255.6,
+   "text": "Сорок восемь дней. За это время человек едва успевает привыкнуть к новому телефону.",
+   "image": "images/Scene_049.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 50,
+   "name": "Scene_050",
+   "orig": 23,
+   "start": 255.6,
+   "end": 261.6,
+   "text": "Это был первый тревожный звонок. Компания его услышала. Но сделала неверный вывод.",
+   "image": "images/Scene_050.jpg",
+   "clip": "clips/Scene_050.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 51,
+   "name": "Scene_051",
+   "orig": 23,
+   "start": 261.6,
+   "end": 266.208,
+   "text": "Она решила, что проблема в конкретном телефоне. Не в подходе.",
+   "image": "images/Scene_051.jpg",
+   "camera": "panLeft",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "Телефон",
+      "Подход"
+     ],
+     "redFirst": true
+    }
+   ]
+  },
+  {
+   "id": 52,
+   "name": "Scene_052",
+   "orig": 24,
+   "start": 266.208,
+   "end": 273.3,
+   "text": "В октябре две тысячи десятого года Майкрософт выпускает совершенно новую систему. Виндовс Фоун семь.",
+   "image": "images/Scene_052.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 53,
+   "name": "Scene_053",
+   "orig": 25,
+   "start": 273.3,
+   "end": 280.2,
+   "text": "Выглядит она свежо. Плиточный интерфейс. Яркие цвета. Крупный шрифт. Быстрая анимация.",
+   "image": "images/Scene_053.jpg",
+   "clip": "clips/Scene_053.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 54,
+   "name": "Scene_054",
+   "orig": 25,
+   "start": 280.2,
+   "end": 288.3,
+   "text": "Критики хвалят. Некоторые пишут: наконец-то у Майкрософт получилось что-то по-настоящему новое.",
+   "image": "images/Scene_054.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "наконец-то что-то новое"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 55,
+   "name": "Scene_055",
+   "orig": 26,
+   "start": 288.3,
+   "end": 292.4,
+   "text": "И это правда. Дизайн был смелым. Так не выглядел ни один другой телефон.",
+   "image": "images/Scene_055.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 56,
+   "name": "Scene_056",
+   "orig": 27,
+   "start": 292.4,
+   "end": 298.4,
+   "text": "Но есть проблема. Новая система не совместима со старыми приложениями Виндовс Мобайл.",
+   "image": "images/Scene_056.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 57,
+   "name": "Scene_057",
+   "orig": 27,
+   "start": 298.4,
+   "end": 305.3,
+   "text": "Всё придётся писать заново. Майкрософт сознательно ломает старое. Решает начать с чистого листа.",
+   "image": "images/Scene_057.jpg",
+   "clip": "clips/Scene_057.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 58,
+   "name": "Scene_058",
+   "orig": 28,
+   "start": 305.3,
+   "end": 311.8,
+   "text": "А разработчики не торопятся. Зачем тратить месяцы на платформу, у которой почти нет пользователей?",
+   "image": "images/Scene_058.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 59,
+   "name": "Scene_059",
+   "orig": 28,
+   "start": 311.8,
+   "end": 317.4,
+   "text": "Лучше написать приложение для айфона или андроида. Там миллионы покупателей.",
+   "image": "images/Scene_059.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 60,
+   "name": "Scene_060",
+   "orig": 29,
+   "start": 317.4,
+   "end": 325.1,
+   "text": "Получается замкнутый круг. Нет пользователей, значит нет приложений. Нет приложений, значит нет пользователей.",
+   "image": "images/Scene_060.jpg",
+   "clip": "clips/Scene_060.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 61,
+   "name": "Scene_061",
+   "orig": 30,
+   "start": 325.1,
+   "end": 332.4,
+   "text": "Майкрософт пытается его разорвать. Платит разработчикам. Сама пишет приложения для популярных сервисов.",
+   "image": "images/Scene_061.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 62,
+   "name": "Scene_062",
+   "orig": 30,
+   "start": 332.4,
+   "end": 336.4,
+   "text": "Запускает огромные рекламные кампании. Но этого мало.",
+   "image": "images/Scene_062.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "реклама",
+      "мало"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 63,
+   "name": "Scene_063",
+   "orig": 31,
+   "start": 336.4,
+   "end": 341.2,
+   "text": "Нужен партнёр. Тот, у кого уже есть миллионы покупателей по всему миру.",
+   "image": "images/Scene_063.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 64,
+   "name": "Scene_064",
+   "orig": 31,
+   "start": 341.2,
+   "end": 344.112,
+   "text": "И партнёр находится. Это Нокиа.",
+   "image": "images/Scene_064.jpg",
+   "clip": "clips/Scene_064.mp4",
+   "clipSeconds": 6.02
+  },
+  {
+   "id": 65,
+   "name": "Scene_065",
+   "orig": 32,
+   "start": 344.112,
+   "end": 348.0,
+   "text": "Ещё несколько лет назад Нокиа была королём мобильного мира.",
+   "image": "images/Scene_065.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 66,
+   "name": "Scene_066",
+   "orig": 32,
+   "start": 348.0,
+   "end": 354.4,
+   "text": "Самый продаваемый производитель телефонов на планете. Её устройства были в каждом кармане.",
+   "image": "images/Scene_066.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 67,
+   "name": "Scene_067",
+   "orig": 33,
+   "start": 354.4,
+   "end": 359.7,
+   "text": "Но смартфоны всё изменили. У Нокиа была собственная система, Симбиан.",
+   "image": "images/Scene_067.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 68,
+   "name": "Scene_068",
+   "orig": 33,
+   "start": 359.7,
+   "end": 365.2,
+   "text": "Она стремительно устаревала. А новая разработка, Мигу, так и не стала массовой.",
+   "image": "images/Scene_068.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 69,
+   "name": "Scene_069",
+   "orig": 33,
+   "start": 365.2,
+   "end": 367.4,
+   "text": "Компания оказалась в тупике.",
+   "image": "images/Scene_069.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 70,
+   "name": "Scene_070",
+   "orig": 34,
+   "start": 367.4,
+   "end": 373.3,
+   "text": "В две тысячи десятом году Нокиа возглавляет бывший топ-менеджер Майкрософт Стивен Элоп.",
+   "image": "images/Scene_070.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 71,
+   "name": "Scene_071",
+   "orig": 34,
+   "start": 373.3,
+   "end": 379.2,
+   "text": "И вскоре он рассылает сотрудникам письмо, которое потом разойдётся по всему интернету.",
+   "image": "images/Scene_071.jpg",
+   "clip": "clips/Scene_071.mp4",
+   "clipSeconds": 4.01
+  },
+  {
+   "id": 72,
+   "name": "Scene_072",
+   "orig": 34,
+   "start": 379.2,
+   "end": 384.9,
+   "text": "В нём Элоп сравнивает Нокиа с человеком, стоящим на горящей нефтяной платформе.",
+   "image": "images/Scene_072.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 73,
+   "name": "Scene_073",
+   "orig": 34,
+   "start": 384.9,
+   "end": 388.4,
+   "text": "Либо сгореть, либо прыгнуть в ледяную воду.",
+   "image": "images/Scene_073.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 74,
+   "name": "Scene_074",
+   "orig": 35,
+   "start": 388.4,
+   "end": 394.2,
+   "text": "Одиннадцатого февраля две тысячи одиннадцатого года Нокиа объявляет о союзе с Майкрософт.",
+   "image": "images/Scene_074.jpg",
+   "clip": "clips/Scene_074.mp4",
+   "clipSeconds": 4.01
+  },
+  {
+   "id": 75,
+   "name": "Scene_075",
+   "orig": 35,
+   "start": 394.2,
+   "end": 398.6,
+   "text": "Все новые смартфоны компании будут работать на Виндовс Фоун.",
+   "image": "images/Scene_075.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 76,
+   "name": "Scene_076",
+   "orig": 36,
+   "start": 398.6,
+   "end": 402.148,
+   "text": "Прыжок получился тяжёлым. Нокиа отказалась от Симбиана.",
+   "image": "images/Scene_076.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 77,
+   "name": "Scene_077",
+   "orig": 36,
+   "start": 402.148,
+   "end": 408.1,
+   "text": "Ещё до выхода первых устройств на новой системе продажи старых резко упали.",
+   "image": "images/Scene_077.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 78,
+   "name": "Scene_078",
+   "orig": 36,
+   "start": 408.1,
+   "end": 413.3,
+   "text": "Покупатели не хотели брать телефоны на платформе, которую завтра закроют.",
+   "image": "images/Scene_078.jpg",
+   "clip": "clips/Scene_078.mp4",
+   "clipSeconds": 4.01,
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "платформу закроют"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 79,
+   "name": "Scene_079",
+   "orig": 37,
+   "start": 413.3,
+   "end": 417.3,
+   "text": "Первые Люмии вышли в конце две тысячи одиннадцатого года.",
+   "image": "images/Scene_079.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 80,
+   "name": "Scene_080",
+   "orig": 37,
+   "start": 417.3,
+   "end": 424.2,
+   "text": "Они были хороши. Красивые, качественные, с отличными камерами. Но продавались слишком медленно.",
+   "image": "images/Scene_080.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 81,
+   "name": "Scene_081",
+   "orig": 38,
+   "start": 424.2,
+   "end": 430.0,
+   "text": "Доля Виндовс Фоун в лучшие времена добралась лишь до трёх-четырёх процентов мирового рынка.",
+   "image": "images/Scene_081.jpg",
+   "clip": "clips/Scene_081.mp4",
+   "clipSeconds": 4.01
+  },
+  {
+   "id": 82,
+   "name": "Scene_082",
+   "orig": 38,
+   "start": 430.0,
+   "end": 434.7,
+   "text": "Для сравнения: андроид и айос делили почти всё остальное.",
+   "image": "images/Scene_082.jpg",
+   "camera": "zoomOut",
+   "overlays": [
+    {
+     "type": "counter",
+     "text": "3–4 %",
+     "label": "доля Windows Phone"
+    }
+   ]
+  },
+  {
+   "id": 83,
+   "name": "Scene_083",
+   "orig": 39,
+   "start": 434.7,
+   "end": 439.2,
+   "text": "Приложений по-прежнему не хватало. Инстаграм появился с большим опозданием.",
+   "image": "images/Scene_083.jpg",
+   "camera": "panLeft",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "поздно"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 84,
+   "name": "Scene_084",
+   "orig": 39,
+   "start": 439.2,
+   "end": 445.8,
+   "text": "Снэпчат не вышел вообще. А Гугл так и не разрешила официальное приложение Ютуб.",
+   "image": "images/Scene_084.jpg",
+   "camera": "refPush",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "нет"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 85,
+   "name": "Scene_085",
+   "orig": 39,
+   "start": 445.8,
+   "end": 450.7,
+   "text": "Майкрософт даже пришлось сделать собственное, и Гугл заставила его убрать.",
+   "image": "images/Scene_085.jpg",
+   "clip": "clips/Scene_085.mp4",
+   "clipSeconds": 4.01,
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "заблокировано"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 86,
+   "name": "Scene_086",
+   "orig": 40,
+   "start": 450.7,
+   "end": 458.544,
+   "text": "Пользователи это замечали. И уходили. А Майкрософт приняла решение, которое тогда казалось логичным.",
+   "image": "images/Scene_086.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 87,
+   "name": "Scene_087",
+   "orig": 41,
+   "start": 458.544,
+   "end": 464.2,
+   "text": "В августе две тысячи тринадцатого года Стив Балмер объявляет, что уходит из компании.",
+   "image": "images/Scene_087.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 88,
+   "name": "Scene_088",
+   "orig": 41,
+   "start": 464.2,
+   "end": 467.8,
+   "text": "Через полгода на его место придёт Сатья Наделла.",
+   "image": "images/Scene_088.jpg",
+   "clip": "clips/Scene_088.mp4",
+   "clipSeconds": 4.01
+  },
+  {
+   "id": 89,
+   "name": "Scene_089",
+   "orig": 41,
+   "start": 467.8,
+   "end": 471.6,
+   "text": "А пока Майкрософт готовит ещё одну крупную сделку.",
+   "image": "images/Scene_089.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 90,
+   "name": "Scene_090",
+   "orig": 42,
+   "start": 471.6,
+   "end": 478.5,
+   "text": "Третьего сентября две тысячи тринадцатого года компания объявляет: она покупает мобильное подразделение Нокиа.",
+   "image": "images/Scene_090.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 91,
+   "name": "Scene_091",
+   "orig": 42,
+   "start": 478.5,
+   "end": 483.4,
+   "text": "Цена: пять целых сорок четыре сотых миллиарда евро.",
+   "image": "images/Scene_091.jpg",
+   "camera": "panLeft",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 5.44,
+     "prefix": "€",
+     "suffix": " млрд",
+     "decimals": 2,
+     "label": "цена Nokia"
+    }
+   ]
+  },
+  {
+   "id": 92,
+   "name": "Scene_092",
+   "orig": 42,
+   "start": 483.4,
+   "end": 487.0,
+   "text": "Это около семи целых двух десятых миллиарда долларов.",
+   "image": "images/Scene_092.jpg",
+   "clip": "clips/Scene_092.mp4",
+   "clipSeconds": 4.01,
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 7.2,
+     "prefix": "≈ $",
+     "suffix": " млрд",
+     "decimals": 1,
+     "label": "в долларах"
+    }
+   ]
+  },
+  {
+   "id": 93,
+   "name": "Scene_093",
+   "orig": 43,
+   "start": 487.0,
+   "end": 493.0,
+   "text": "Логика простая. Если контролировать и систему, и железо, можно сделать как Эппл.",
+   "image": "images/Scene_093.jpg",
+   "camera": "driftUp",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "система",
+      "устройство"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 94,
+   "name": "Scene_094",
+   "orig": 43,
+   "start": 493.0,
+   "end": 498.4,
+   "text": "Один хозяин. Одна стратегия. Один продукт от начала до конца.",
+   "image": "images/Scene_094.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "один хозяин",
+      "одна стратегия"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 95,
+   "name": "Scene_095",
+   "orig": 44,
+   "start": 498.4,
+   "end": 503.4,
+   "text": "Сделка закрывается двадцать пятого апреля две тысячи четырнадцатого года.",
+   "image": "images/Scene_095.jpg",
+   "clip": "clips/Scene_095.mp4",
+   "clipSeconds": 4.01
+  },
+  {
+   "id": 96,
+   "name": "Scene_096",
+   "orig": 44,
+   "start": 503.4,
+   "end": 507.7,
+   "text": "В Майкрософт приходят около тридцати тысяч сотрудников Нокиа.",
+   "image": "images/Scene_096.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 30000,
+     "suffix": " человек",
+     "label": "пришли из Nokia",
+     "sep": true
+    }
+   ]
+  },
+  {
+   "id": 97,
+   "name": "Scene_097",
+   "orig": 45,
+   "start": 507.7,
+   "end": 512.0,
+   "text": "Но Эппл создавала такой союз годами. С самого начала.",
+   "image": "images/Scene_097.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 98,
+   "name": "Scene_098",
+   "orig": 45,
+   "start": 512.0,
+   "end": 519.0,
+   "text": "Майкрософт пыталась собрать его одной сделкой. На рынке, который к тому моменту уже поделили конкуренты.",
+   "image": "images/Scene_098.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 99,
+   "name": "Scene_099",
+   "orig": 46,
+   "start": 519.0,
+   "end": 523.9,
+   "text": "И сразу начались проблемы. Две огромные компании с разной культурой.",
+   "image": "images/Scene_099.jpg",
+   "clip": "clips/Scene_099.mp4",
+   "clipSeconds": 4.01
+  },
+  {
+   "id": 100,
+   "name": "Scene_100",
+   "orig": 46,
+   "start": 523.9,
+   "end": 531.2,
+   "text": "Тысячи людей, которые не знают, чем заниматься дальше. Сотни моделей телефонов, которые никому не нужны.",
+   "image": "images/Scene_100.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 101,
+   "name": "Scene_101",
+   "orig": 47,
+   "start": 531.2,
+   "end": 535.554,
+   "text": "В июле две тысячи четырнадцатого года проходит первое сокращение.",
+   "image": "images/Scene_101.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 102,
+   "name": "Scene_102",
+   "orig": 47,
+   "start": 535.554,
+   "end": 540.2,
+   "text": "Восемнадцать тысяч человек. Большинство из них пришли вместе с Нокиа.",
+   "image": "images/Scene_102.jpg",
+   "clip": "clips/Scene_102.mp4",
+   "clipSeconds": 4.01,
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 18000,
+     "suffix": " человек",
+     "label": "первое сокращение",
+     "sep": true
+    }
+   ]
+  },
+  {
+   "id": 103,
+   "name": "Scene_103",
+   "orig": 47,
+   "start": 540.2,
+   "end": 545.712,
+   "text": "А продажи не росли. Мир уже сделал выбор. Андроид и айфон.",
+   "image": "images/Scene_103.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 104,
+   "name": "Scene_104",
+   "orig": 48,
+   "start": 545.712,
+   "end": 550.8,
+   "text": "Приходит новый руководитель, Сатья Наделла. И он смотрит на цифры трезво.",
+   "image": "images/Scene_104.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 105,
+   "name": "Scene_105",
+   "orig": 48,
+   "start": 550.8,
+   "end": 553.8,
+   "text": "Телефонный бизнес не приносит ничего, кроме убытков.",
+   "image": "images/Scene_105.jpg",
+   "camera": "panRight",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "телефоны"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 106,
+   "name": "Scene_106",
+   "orig": 48,
+   "start": 553.8,
+   "end": 559.6,
+   "text": "А главные деньги Майкрософт теперь в облачных сервисах и офисных программах.",
+   "image": "images/Scene_106.jpg",
+   "clip": "clips/Scene_106.mp4",
+   "clipSeconds": 4.01,
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "облако + офис"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 107,
+   "name": "Scene_107",
+   "orig": 49,
+   "start": 559.6,
+   "end": 566.4,
+   "text": "В июле две тысячи пятнадцатого года Майкрософт списывает семь целых шесть десятых миллиарда долларов.",
+   "image": "images/Scene_107.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 108,
+   "name": "Scene_108",
+   "orig": 49,
+   "start": 566.4,
+   "end": 572.7,
+   "text": "Почти вся стоимость Нокиа обнулена. И ещё семь тысяч восемьсот сотрудников теряют работу.",
+   "image": "images/Scene_108.jpg",
+   "camera": "refPush",
+   "clip": "clips/article_microsoft.mp4",
+   "clipSeconds": 7.0,
+   "article": true,
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 7.6,
+     "prefix": "$",
+     "suffix": " млрд",
+     "decimals": 1,
+     "label": "списание"
+    }
+   ]
+  },
+  {
+   "id": 109,
+   "name": "Scene_109",
+   "orig": 49,
+   "start": 572.7,
+   "end": 576.3,
+   "text": "Тот самый убыток, с которого мы начали.",
+   "image": "images/Scene_109.jpg",
+   "clip": "clips/Scene_109.mp4",
+   "clipSeconds": 4.01,
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 7800,
+     "suffix": " человек",
+     "label": "ещё сокращено",
+     "sep": true
+    }
+   ]
+  },
+  {
+   "id": 110,
+   "name": "Scene_110",
+   "orig": 50,
+   "start": 576.3,
+   "end": 581.5,
+   "text": "Компания пробует последний шанс. Выпускает Виндовс десять для телефонов.",
+   "image": "images/Scene_110.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 111,
+   "name": "Scene_111",
+   "orig": 50,
+   "start": 581.5,
+   "end": 586.6,
+   "text": "Обещает, что одно приложение будет работать и на компьютере, и на смартфоне.",
+   "image": "images/Scene_111.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 112,
+   "name": "Scene_112",
+   "orig": 50,
+   "start": 586.6,
+   "end": 589.4,
+   "text": "Но разработчики опять не приходят.",
+   "image": "images/Scene_112.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 113,
+   "name": "Scene_113",
+   "orig": 51,
+   "start": 589.4,
+   "end": 598.2,
+   "text": "В мае две тысячи шестнадцатого года остатки телефонного бизнеса уходят к дочерней компании Фокскон и финскому стартапу ЭйчЭмДи.",
+   "image": "images/Scene_113.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 114,
+   "name": "Scene_114",
+   "orig": 51,
+   "start": 598.2,
+   "end": 602.1,
+   "text": "Сумма сделки: триста пятьдесят миллионов долларов.",
+   "image": "images/Scene_114.jpg",
+   "camera": "zoomOut",
+   "overlays": [
+    {
+     "type": "plaques",
+     "items": [
+      "7,2 млрд $",
+      "350 млн $"
+     ],
+     "redFirst": false
+    }
+   ]
+  },
+  {
+   "id": 115,
+   "name": "Scene_115",
+   "orig": 51,
+   "start": 602.1,
+   "end": 605.2,
+   "text": "Это меньше пяти процентов от цены покупки.",
+   "image": "images/Scene_115.jpg",
+   "camera": "panLeft",
+   "overlays": [
+    {
+     "type": "counter",
+     "text": "< 5 %",
+     "label": "от цены покупки"
+    }
+   ]
+  },
+  {
+   "id": 116,
+   "name": "Scene_116",
+   "orig": 52,
+   "start": 605.2,
+   "end": 615.031,
+   "text": "В октябре две тысячи семнадцатого года глава Виндовс Фоун Джо Белфиор пишет в Твиттере: новых функций и новых устройств больше не будет.",
+   "image": "images/Scene_116.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 117,
+   "name": "Scene_117",
+   "orig": 52,
+   "start": 615.031,
+   "end": 618.0,
+   "text": "Он признаёт, что не смог убедить разработчиков.",
+   "image": "images/Scene_117.jpg",
+   "camera": "driftUp",
+   "overlays": [
+    {
+     "type": "keyphrase",
+     "phrases": [
+      "больше не будет"
+     ]
+    }
+   ]
+  },
+  {
+   "id": 118,
+   "name": "Scene_118",
+   "orig": 52,
+   "start": 618.0,
+   "end": 619.5,
+   "text": "Просто и честно.",
+   "image": "images/Scene_118.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 119,
+   "name": "Scene_119",
+   "orig": 53,
+   "start": 619.5,
+   "end": 625.6,
+   "text": "Десятого декабря две тысячи девятнадцатого года поддержка системы прекращается окончательно.",
+   "image": "images/Scene_119.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 120,
+   "name": "Scene_120",
+   "orig": 53,
+   "start": 625.6,
+   "end": 629.8,
+   "text": "Двадцать лет попыток заканчиваются одной строчкой в календаре.",
+   "image": "images/Scene_120.jpg",
+   "camera": "zoomIn",
+   "overlays": [
+    {
+     "type": "counter",
+     "to": 20,
+     "suffix": " лет",
+     "label": "попыток"
+    }
+   ]
+  },
+  {
+   "id": 121,
+   "name": "Scene_121",
+   "orig": 54,
+   "start": 629.8,
+   "end": 637.222,
+   "text": "Но история на этом не заканчивается. В две тысячи двадцатом году Майкрософт выпускает смартфон Сёрфис Дуо.",
+   "image": "images/Scene_121.jpg",
+   "camera": "panRight"
+  },
+  {
+   "id": 122,
+   "name": "Scene_122",
+   "orig": 54,
+   "start": 637.222,
+   "end": 640.9,
+   "text": "С двумя экранами. И знаете, на чём он работает?",
+   "image": "images/Scene_122.jpg",
+   "camera": "zoomOut"
+  },
+  {
+   "id": 123,
+   "name": "Scene_123",
+   "orig": 54,
+   "start": 640.9,
+   "end": 646.5,
+   "text": "На андроиде. На той самой системе, которую компания когда-то хотела победить.",
+   "image": "images/Scene_123.jpg",
+   "camera": "panLeft"
+  },
+  {
+   "id": 124,
+   "name": "Scene_124",
+   "orig": 55,
+   "start": 646.5,
+   "end": 653.4,
+   "text": "Майкрософт не разорилась. Она нашла новые рынки: облака, офисные программы, искусственный интеллект.",
+   "image": "images/Scene_124.jpg",
+   "camera": "refPush"
+  },
+  {
+   "id": 125,
+   "name": "Scene_125",
+   "orig": 55,
+   "start": 653.4,
+   "end": 657.1,
+   "text": "Сегодня она одна из самых дорогих компаний мира.",
+   "image": "images/Scene_125.jpg",
+   "camera": "driftUp"
+  },
+  {
+   "id": 126,
+   "name": "Scene_126",
+   "orig": 56,
+   "start": 657.1,
+   "end": 659.729,
+   "text": "Но урок остался. Можно владеть почти всем компьютерным миром.",
+   "image": "images/Scene_126.jpg",
+   "camera": "zoomIn"
+  },
+  {
+   "id": 127,
+   "name": "Scene_127",
+   "orig": 56,
+   "start": 659.729,
+   "end": 662.359,
+   "text": "И всё равно проиграть в кармане у каждого человека.",
+   "image": "images/Scene_127.jpg",
+   "camera": "driftDown"
+  },
+  {
+   "id": 128,
+   "name": "Scene_128",
+   "orig": 56,
+   "start": 662.359,
+   "end": 665.28,
+   "text": "Вся история уместилась в три слова: опоздала, ошиблась, не поверила.",
+   "image": "images/Scene_128.jpg",
+   "camera": "zoomIn"
+  }
+ ]
+}
